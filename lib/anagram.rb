@@ -10,6 +10,5 @@ class Anagram
     anagrams.select do |word|
       word.split.sort == @word.split.sort
     end
-    anagrams
   end
 end
