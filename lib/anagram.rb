@@ -7,11 +7,8 @@ class Anagram
   end
 
   def match(anagrams)
-    result = []
     anagrams.select do |word|
       word.split("").sort == @word.split("").sort
-      result << word
     end
-    result
   end
 end
