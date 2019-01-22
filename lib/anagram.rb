@@ -12,5 +12,6 @@ class Anagram
       word.split("").sort == @word.split("").sort
       result << word
     end
+    result
   end
 end
